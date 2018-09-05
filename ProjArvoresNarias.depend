@@ -1,0 +1,66 @@
+# depslib dependency file v1.0
+1535316852 source:c:\users\u16174\desktop\projarvoresnarias\main.cpp
+	<iostream>
+	"No.h"
+	"ArvoreNaria.h"
+
+1536153732 source:c:\users\u16174\desktop\projarvoresnarias\src\arvorenaria.cpp
+	"ArvoreNaria.h"
+	<stdio.h>
+	<string.h>
+	<math.h>
+
+1536153732 c:\users\u16174\desktop\projarvoresnarias\include\arvorenaria.h
+	"No.h"
+
+1536152473 c:\users\u16174\desktop\projarvoresnarias\include\no.h
+
+1535293598 source:c:\users\u16174\desktop\projarvoresnarias\src\no.cpp
+	"No.h"
+	<stdio.h>
+	<string>
+	<string.h>
+
+1535121620 source:z:\projarvoresnarias\main.cpp
+	<iostream>
+	"No.h"
+	"ArvoreNaria.h"
+
+1535121207 z:\projarvoresnarias\include\no.h
+
+1535121212 z:\projarvoresnarias\include\arvorenaria.h
+	"No.h"
+
+1535121479 source:z:\projarvoresnarias\src\arvorenaria.cpp
+	"ArvoreNaria.h"
+	<stdio.h>
+	<string.h>
+
+1535121197 source:z:\projarvoresnarias\src\no.cpp
+	"No.h"
+	<stdio.h>
+	<string>
+	<string.h>
+
+1535293899 source:c:\users\carlos ramalho\desktop\projarvoresnarias\src\arvorenaria.cpp
+	"ArvoreNaria.h"
+	<stdio.h>
+	<string.h>
+	<math.h>
+
+1535253677 c:\users\carlos ramalho\desktop\projarvoresnarias\include\arvorenaria.h
+	"No.h"
+
+1535252016 c:\users\carlos ramalho\desktop\projarvoresnarias\include\no.h
+
+1535293597 source:c:\users\carlos ramalho\desktop\projarvoresnarias\src\no.cpp
+	"No.h"
+	<stdio.h>
+	<string>
+	<string.h>
+
+1535295148 source:c:\users\carlos ramalho\desktop\projarvoresnarias\main.cpp
+	<iostream>
+	"No.h"
+	"ArvoreNaria.h"
+

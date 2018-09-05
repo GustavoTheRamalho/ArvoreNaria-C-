@@ -20,8 +20,11 @@ No::No(int n)
 
 No::~No()
 {
-    delete[] infos;
-    delete[] ptrs;
+    delete []infos;
+    for (int i=0; i<this->n; i++)
+        if (ptrs[i] != NULL)
+        delete ptrs[i];
+    delete []ptrs;
 }
 
 int No::temVaga()

@@ -6,12 +6,16 @@ ArvoreNaria::ArvoreNaria(int n)
 {
     this->raiz = NULL;
     this->n = n;
+    this->qtsNos = 0;
 }
 
 void ArvoreNaria::incluir(int i)
 {
     if (this->raiz == NULL)
+    {
         this->raiz = new No(this->n);
+        this->qtsNos++;
+    }
 
     this->inserirEm(this->raiz, i, NULL, NULL);
 }
@@ -23,6 +27,7 @@ void ArvoreNaria::inserirEm(No* ptr, int info, No* pai, int pos)
     {
           ptr = new No(this->n);
           pai->setPtr(pos, ptr);
+          this->qtsNos++;
     }
 
 
@@ -182,6 +187,7 @@ void ArvoreNaria::remover(int info)
         {
             anterior->setPtr(indice, NULL);
             delete atual;
+            this->qtsNos--;
         }
         else
         {
@@ -293,7 +299,10 @@ int ArvoreNaria::getMenorInfo(No* ptr)
 }
 
 
+void ArvoreNaria::balancear()
+{
 
+}
 
 
 
@@ -316,7 +325,8 @@ void ArvoreNaria::test()
         else
          printf("NULO\n");*/
 
-        printf("%d", this->getMenorInfo(this->raiz));
+      //  printf("%d", this->getMenorInfo(this->raiz));
+      printf("%d", this->qtsNos);
 
 }
 

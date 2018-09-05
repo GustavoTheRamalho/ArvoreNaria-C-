@@ -12,7 +12,7 @@ class ArvoreNaria
         char* toString();
         int qtsNiveis();
         void remover(int);
-
+        void balancear();
 
         void test();
 
@@ -24,6 +24,7 @@ class ArvoreNaria
         char* toString(char*, No*);
         int qtsNiveis(No*, int);
         No** getPtrsPorNivel(int);
+        int qtsNos;
 
         int getMaiorInfo(No*);
         int getMenorInfo(No*);

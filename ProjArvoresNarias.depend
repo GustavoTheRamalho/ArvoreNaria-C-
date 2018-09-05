@@ -64,3 +64,25 @@
 	"No.h"
 	"ArvoreNaria.h"
 
+1536155959 source:c:\users\u16174\documents\github\arvorenaria-c-\main.cpp
+	<iostream>
+	"No.h"
+	"ArvoreNaria.h"
+
+1536152473 c:\users\u16174\documents\github\arvorenaria-c-\include\no.h
+
+1536155418 c:\users\u16174\documents\github\arvorenaria-c-\include\arvorenaria.h
+	"No.h"
+
+1536157158 source:c:\users\u16174\documents\github\arvorenaria-c-\src\arvorenaria.cpp
+	"ArvoreNaria.h"
+	<stdio.h>
+	<string.h>
+	<math.h>
+
+1536156561 source:c:\users\u16174\documents\github\arvorenaria-c-\src\no.cpp
+	"No.h"
+	<stdio.h>
+	<string>
+	<string.h>
+

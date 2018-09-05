@@ -13,11 +13,13 @@ int main()
     arvore.incluir(4);
     arvore.incluir(1);
     arvore.incluir(7);
-    arvore.incluir(6);
+    arvore.incluir(5);
+    arvore.remover(7);
 
- //  arvore.test();
+  // arvore.test();
   //printf("%d", arvore.qtsNiveis());
     cout << arvore.toString() << endl;
+    arvore.test();
 
 
 

@@ -5,26 +5,19 @@ using namespace std;
 
 int main()
 {
-    cout << "Hello world!" << endl;
+    ArvoreNaria arvore = ArvoreNaria(4);
 
-    ArvoreNaria arvore = ArvoreNaria(3);
     arvore.incluir(3);
     arvore.incluir(2);
     arvore.incluir(4);
     arvore.incluir(1);
     arvore.incluir(7);
     arvore.incluir(5);
-    arvore.remover(7);
+    arvore.incluir(6);
 
-  // arvore.test();
-  //printf("%d", arvore.qtsNiveis());
-    cout << arvore.toString() << endl;
-    arvore.test();
+    arvore.remover(3);
 
-
-
-
-    //cout << arvore.toString() << endl;
+    cout << arvore << endl;
 
     return 0;
 }

@@ -91,9 +91,9 @@ char* No::toString()
     for(int i=0; i<this->n-1; i++)
     {
         if (this->infos[i] != NULL)
-            sprintf(inteiro, "|%d|", this->infos[i]);
+            sprintf(inteiro, "[%d]", this->infos[i]);
         else
-            sprintf(inteiro, "| |");
+            sprintf(inteiro, "[ ]");
         strcat(ret, inteiro);
     }
 

@@ -20,7 +20,6 @@ void ArvoreNaria::incluir(int i)
     this->inserirEm(this->raiz, i, NULL, NULL);
 }
 
-
 void ArvoreNaria::inserirEm(No* ptr, int info, No* pai, int pos)
 {
     if (ptr != this->raiz && ptr == NULL)
@@ -51,8 +50,6 @@ void ArvoreNaria::inserirEm(No* ptr, int info, No* pai, int pos)
         }
     }
 }
-
-
 
 int ArvoreNaria::qtsNiveis()
 {
@@ -298,37 +295,6 @@ int ArvoreNaria::getMenorInfo(No* ptr)
     return NULL;
 }
 
-
-void ArvoreNaria::balancear()
-{
-
-}
-
-
-
-
-
-
-void ArvoreNaria::test()
-{
-  /*  No* teste = this->raiz;
-      for (int i=0; i<this->n; i++)
-            if (teste->getPtr(i) != NULL)
-                printf(" naoNUlo ");
-            else
-                printf(" tanulo ");*//*
-      No** vet = this->getPtrsPorNivel(3);
-
-      for (int i=0; i<27; i++)
-        if (vet[i] != NULL)
-         printf("%s\n", vet[i]->toString());
-        else
-         printf("NULO\n");*/
-
-      //  printf("%d", this->getMenorInfo(this->raiz));
-      printf("%d", this->qtsNos);
-
-}
 
 
 

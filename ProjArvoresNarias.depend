@@ -86,3 +86,26 @@
 	<string>
 	<string.h>
 
+1544154284 source:c:\users\carlo\onedrive\documentos\github\arvorenaria-c-\main.cpp
+	<iostream>
+	"No.h"
+	"ArvoreNaria.h"
+
+1543772171 c:\users\carlo\onedrive\documentos\github\arvorenaria-c-\include\no.h
+
+1544154491 c:\users\carlo\onedrive\documentos\github\arvorenaria-c-\include\arvorenaria.h
+	"No.h"
+	<iostream>
+
+1544132307 source:c:\users\carlo\onedrive\documentos\github\arvorenaria-c-\src\arvorenaria.cpp
+	"ArvoreNaria.h"
+	<stdio.h>
+	<string.h>
+	<math.h>
+
+1544154855 source:c:\users\carlo\onedrive\documentos\github\arvorenaria-c-\src\no.cpp
+	"No.h"
+	<stdio.h>
+	<string>
+	<string.h>
+
